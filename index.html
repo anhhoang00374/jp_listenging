@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listening App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Listening App</h1>
+  
+  <label for="folderSelect">Choose a folder:</label>
+  <select id="folderSelect"></select>
+
+  <label for="fileSelect">Choose a file:</label>
+  <select id="fileSelect"></select>
+  
+  <div class="player-controls">
+    <button id="playBtn">Play</button>
+    <button id="pauseBtn">Pause</button>
+
+  </div>
+
+  <audio id="audioPlayer" controls hidden>
+    Your browser does not support the video tag.
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>

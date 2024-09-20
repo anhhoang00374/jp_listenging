@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  select {
+    margin-bottom: 20px;
+  }
+  
+  .player-controls {
+    margin-top: 20px;
+  }
+  
+  button {
+    margin-right: 10px;
+  }
+  
+  #currentTime, #duration {
+    margin-left: 10px;
+  }
+  
+  input[type="range"] {
+    margin-right: 10px;
+  }
